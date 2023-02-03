@@ -10445,7 +10445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09415289fb4ebfd46b7447a62e09bde5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endlessMode: 0
+  endlessMode: 1
   spawnCDType: 1
   skippable: 1
   genWaveOnStart: 0
@@ -10613,13 +10613,113 @@ MonoBehaviour:
       limitMax: -1
     waveIntervalMin: 5
     waveIntervalMax: 10
-    useAllPath: 0
+    useAllPath: 1
     limitSubWaveCountToPath: 0
     similarSubWave: 0
     genItemList:
+    - unitPrefabID: 7
+      prefab: {fileID: 114762694574170050, guid: cac7635585c656a4a9b3130108ee4b44, type: 3}
+      enabled: 1
+      minWave: 0
+      maxWave: -1
+      attOdds:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      attInterval:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      enableHPOverride: 1
+      enableSHOverride: 1
+      enableSpeedOverride: 1
+      enableRscOverride: 1
+      attHP:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      attSH:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      attSpeed:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      attRscGain:
+      - startValue: 0
+        incrementRate: 0
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      - startValue: 0
+        incrementRate: 0
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+    - unitPrefabID: 6
+      prefab: {fileID: 114089636255029794, guid: 54a2a956739e63c4a84553c07a7ae463, type: 3}
+      enabled: 1
+      minWave: 0
+      maxWave: -1
+      attOdds:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      attInterval:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      enableHPOverride: 1
+      enableSHOverride: 1
+      enableSpeedOverride: 1
+      enableRscOverride: 1
+      attHP:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      attSH:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      attSpeed:
+        startValue: 1
+        incrementRate: 1
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      attRscGain:
+      - startValue: 0
+        incrementRate: 0
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
+      - startValue: 0
+        incrementRate: 0
+        deviation: 0
+        limitMin: -1
+        limitMax: -1
     - unitPrefabID: 0
       prefab: {fileID: 114762694574170050, guid: dce61169ecc869f4594a7e45d0265c7a, type: 3}
-      enabled: 1
+      enabled: 0
       minWave: 0
       maxWave: -1
       attOdds:
@@ -10669,7 +10769,7 @@ MonoBehaviour:
         limitMax: -1
     - unitPrefabID: 1
       prefab: {fileID: 114089636255029794, guid: 930e6406997a27542a548b66c144e9b5, type: 3}
-      enabled: 1
+      enabled: 0
       minWave: 0
       maxWave: -1
       attOdds:
@@ -10719,7 +10819,7 @@ MonoBehaviour:
         limitMax: -1
     - unitPrefabID: 2
       prefab: {fileID: 114818404139447466, guid: f57e1c3f2013b554c8fecb97ec3fbecd, type: 3}
-      enabled: 1
+      enabled: 0
       minWave: 0
       maxWave: -1
       attOdds:
@@ -10769,7 +10869,7 @@ MonoBehaviour:
         limitMax: -1
     - unitPrefabID: 3
       prefab: {fileID: 114548261379056564, guid: 315d6b468e677c94aa54b5c2c3f8bd16, type: 3}
-      enabled: 1
+      enabled: 0
       minWave: 0
       maxWave: -1
       attOdds:
@@ -10819,7 +10919,7 @@ MonoBehaviour:
         limitMax: -1
     - unitPrefabID: 4
       prefab: {fileID: 114528667568048320, guid: d3320175d3a0e2d41abf4e4121b105ef, type: 3}
-      enabled: 1
+      enabled: 0
       minWave: 0
       maxWave: -1
       attOdds:
@@ -10869,7 +10969,7 @@ MonoBehaviour:
         limitMax: -1
     - unitPrefabID: 5
       prefab: {fileID: 114049506200566766, guid: d6cd206db468caa4e95412e4a16cabd4, type: 3}
-      enabled: 1
+      enabled: 0
       minWave: 0
       maxWave: -1
       attOdds:
@@ -22206,7 +22306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &575564997
 Transform:
   m_ObjectHideFlags: 0
@@ -22242,7 +22342,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575564996}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -22255,7 +22355,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 771d654b5cb82de46a95106e96f71a69, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31548,9 +31648,10 @@ GameObject:
   m_Component:
   - component: {fileID: 740284294}
   - component: {fileID: 740284295}
+  - component: {fileID: 740284296}
   m_Layer: 0
   m_Name: Directional Light
-  m_TagString: Untagged
+  m_TagString: Sun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31562,14 +31663,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740284293}
-  m_LocalRotation: {x: 0.40541968, y: -0.276451, z: 0.13008794, w: 0.86156076}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalRotation: {x: 0.93118316, y: 0, z: 0, w: 0.36455178}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1970610226}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 50.4, y: -35.58, z: 0}
+  m_LocalEulerAnglesHint: {x: 137.24, y: 0, z: 0}
 --- !u!108 &740284295
 Light:
   m_ObjectHideFlags: 0
@@ -31632,6 +31733,22 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &740284296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740284293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4eeb7cea112e24a9e07cf4e0bd083c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yAxisRotationTime: 10
+  xAxisRotationTime: 60
+  maxXRotation: 45
+  updateTimes: 0
 --- !u!1 &745587893
 GameObject:
   m_ObjectHideFlags: 0
@@ -32282,12 +32399,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769846942}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 14, y: 14, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1448748708}
-  m_RootOrder: 0
+  m_Father: {fileID: 1027557764}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!65 &769846944
 BoxCollider:
@@ -32328,8 +32445,8 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769846942}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -35601,7 +35718,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1448748708}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &939330026
 MonoBehaviour:
@@ -41841,9 +41958,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1640436827}
+  - {fileID: 769846943}
   - {fileID: 1071544063}
   m_Father: {fileID: 1448748708}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1027557765
 MonoBehaviour:
@@ -41867,9 +41985,10 @@ MonoBehaviour:
   warpToStart: 0
   waypointTList:
   - {fileID: 1640436827}
+  - {fileID: 769846943}
   - {fileID: 1071544063}
   nextPath: []
-  fitPathToTerrain: 0
+  fitPathToTerrain: 1
   fitPath_stepSize: 0.25
   fitPath_heightOffset: 0
   cachedDistList: []
@@ -42672,7 +42791,7 @@ Transform:
   m_Children:
   - {fileID: 1446100394}
   m_Father: {fileID: 1027557764}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1071979350
 GameObject:
@@ -53083,7 +53202,7 @@ MonoBehaviour:
   usePieMenuForBuild: 0
   targetMode: 0
   alwaysShowHPOverlay: 0
-  showTextOverlay: 1
+  showTextOverlay: 0
   scaleReferenceWidth: 1366
 --- !u!1 &1317458181
 GameObject:
@@ -60341,7 +60460,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 769846943}
   - {fileID: 939330025}
   - {fileID: 1027557764}
   - {fileID: 1657594739}
@@ -64237,7 +64355,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1448748708}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1658912499
 GameObject:

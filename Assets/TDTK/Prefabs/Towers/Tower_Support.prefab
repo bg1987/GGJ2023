@@ -568,7 +568,7 @@ MonoBehaviour:
   prebuilt: 0
   disableSelling: 0
   lifeCostOnDestroyed: 0
-  hideInInspector: 0
+  hideInInspector: 1
   constructState: 0
   limitInScene: 0
   destroyOnTrigger: 1

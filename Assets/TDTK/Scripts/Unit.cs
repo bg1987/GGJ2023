@@ -182,7 +182,9 @@ namespace TDTK{
 			InitAnimation();
 		}
 		
-		IEnumerator Start(){
+		IEnumerator Start()
+		{
+			isActive = true;
 			if(!IsTower()) yield break;
 			yield return null;
 			
