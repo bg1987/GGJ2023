@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 1c0933479e5d317488144d3d08745257
+  - enabled: 1
     path: Assets/TDTK/Scenes_Demo/Demo__Menu.unity
     guid: 79417be01bbb3b1429fed949b027b141
   - enabled: 1
