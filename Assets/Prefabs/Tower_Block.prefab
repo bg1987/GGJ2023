@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1006966988885794
+--- !u!1 &1058546736273158
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,61 +8,56 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4973439617459958}
-  - component: {fileID: 33216863732657206}
-  - component: {fileID: 23124583673270486}
+  - component: {fileID: 4233552574519728}
+  - component: {fileID: 33459225646752134}
+  - component: {fileID: 23029266637866946}
   m_Layer: 0
-  m_Name: TankTurret6
+  m_Name: TowerTurret6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4973439617459958
+--- !u!4 &4233552574519728
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006966988885794}
-  m_LocalRotation: {x: -4.8578875e-17, y: 0.60876155, z: 0.7933533, w: -3.7275905e-17}
-  m_LocalPosition: {x: 0, y: 0.15, z: -0.2}
+  m_GameObject: {fileID: 1058546736273158}
+  m_LocalRotation: {x: -0.65328175, y: 0.27059758, z: -0.2705976, w: 0.6532816}
+  m_LocalPosition: {x: 0, y: 0, z: 0.372}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4733740384994746}
-  m_Father: {fileID: 4465971767202024}
+  m_Children: []
+  m_Father: {fileID: 4223233279912012}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -75, y: 0, z: 179.99998}
---- !u!33 &33216863732657206
+  m_LocalEulerAnglesHint: {x: -135, y: -90, z: 89.99999}
+--- !u!33 &33459225646752134
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006966988885794}
-  m_Mesh: {fileID: 4300116, guid: afb06ef5a371cb14fa1a534801a2fd8a, type: 3}
---- !u!23 &23124583673270486
+  m_GameObject: {fileID: 1058546736273158}
+  m_Mesh: {fileID: 4300048, guid: afb06ef5a371cb14fa1a534801a2fd8a, type: 3}
+--- !u!23 &23029266637866946
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006966988885794}
+  m_GameObject: {fileID: 1058546736273158}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6adef02b13a80be45903897aad51ba94, type: 2}
+  - {fileID: 2100000, guid: 02644797d6d7d9e41b29e39eccd1fd61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -70,7 +65,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -83,8 +77,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1584281622648256
+--- !u!1 &1201197389169190
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,57 +85,134 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4465971767202024}
-  - component: {fileID: 114049506200566766}
-  - component: {fileID: 135869724636180636}
-  m_Layer: 27
-  m_Name: Creep_Flying_Drone
+  - component: {fileID: 4223233279912012}
+  - component: {fileID: 33694154863094454}
+  - component: {fileID: 23366843109690590}
+  m_Layer: 0
+  m_Name: TowerBase3_Alt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4465971767202024
+--- !u!4 &4223233279912012
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584281622648256}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_ConstrainProportionsScale: 0
+  m_GameObject: {fileID: 1201197389169190}
+  m_LocalRotation: {x: -4.32978e-17, y: 0.7071067, z: 0.7071068, w: -4.3297806e-17}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4973439617459958}
-  - {fileID: 4951069486989940}
+  - {fileID: 4233552574519728}
+  m_Father: {fileID: 4714657385383682}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33694154863094454
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201197389169190}
+  m_Mesh: {fileID: 4300032, guid: afb06ef5a371cb14fa1a534801a2fd8a, type: 3}
+--- !u!23 &23366843109690590
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201197389169190}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 36defd376f44298409cb826748b24665, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1239107217020288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4537856016892564}
+  - component: {fileID: 114541810645508154}
+  - component: {fileID: 135057695828876866}
+  m_Layer: 28
+  m_Name: Tower_Block
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4537856016892564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239107217020288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7, y: 0, z: 3.5}
+  m_LocalScale: {x: 0.45, y: 0.35, z: 0.45}
+  m_Children:
+  - {fileID: 4714657385383682}
+  - {fileID: 4397342225876484}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114049506200566766
+--- !u!114 &114541810645508154
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584281622648256}
+  m_GameObject: {fileID: 1239107217020288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ada439c2f3a47e244a950787d03c6653, type: 3}
+  m_Script: {fileID: 11500000, guid: aad507a3dcc61094483b4a428cf99d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resetTargetOnAttack: 0
-  prefabID: 5
+  prefabID: 7
   instanceID: -1
-  unitName: Drone
-  icon: {fileID: 21300026, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
-  desp: Fast flying unit that immune to all stun effect
-  canBeAttacked: 1
-  canBeTargeted: 1
-  unitRadius: 0.1
-  targetPoint: {fileID: 4951069486989940}
-  hp: 7
-  sh: 0
+  unitName: Block
+  icon: {fileID: 21300012, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
+  desp: Just a structure to occupy a space on the grid.
+  canBeAttacked: 0
+  canBeTargeted: 0
+  unitRadius: 0.25
+  targetPoint: {fileID: 4397342225876484}
+  hp: 10
+  sh: 10
   shStagger: 0
   cooldown: 0
   cooldownAOE: 0
@@ -156,31 +226,35 @@ MonoBehaviour:
     buildDuration: 1.5
     sellDuration: 0.5
     expToNextUpgrade: 10
-    cost: []
-    sellValue: []
-    hp: 8
+    cost:
+    - 10
+    - 0
+    sellValue:
+    - 10
+    - 0
+    hp: 5
     sh: 0
-    shRegen: 0.5
-    shStagger: 3
+    shRegen: 0
+    shStagger: 0
     hpRate: 0
     shRate: 0
     armorType: 0
     damageType: 0
-    speed: 2
+    speed: 0
     dodge: 0
     dmgReduc: 0
     critReduc: 0
-    hit: 0
-    damageMin: 0
-    damageMax: 0
-    attackRange: 3
+    hit: 1
+    damageMin: 1
+    damageMax: 2
+    attackRange: 5
     aoeRange: 0
-    cooldown: 1
+    cooldown: 0.75
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
     overrideExistingEffect: 0
-    effectOnHitIDList: 03000000
+    effectOnHitIDList: 
     hit_AOE: 1
     damageMin_AOE: 2
     damageMax_AOE: 2
@@ -205,11 +279,15 @@ MonoBehaviour:
     overrideExistingEffect_Support: 0
     effectOnHitIDList_Support: 
     cooldown_Rsc: 1
-    rscGain: []
-  effectImmunityList: 0600000008000000
+    rscGain:
+    - 0
+    - 0
+  effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 0}
-  shootPoint: []
+  shootObject: {fileID: 114266115900946412, guid: 09a463b997518ca4ba2b0574c697a0c1,
+    type: 3}
+  shootPoint:
+  - {fileID: 0}
   shootPointSpacing: 0.2
   shootEffObj_AOE:
     obj: {fileID: 0}
@@ -394,7 +472,7 @@ MonoBehaviour:
       duration: 1.5
     activeVisualEffect: {fileID: 0}
   allEffectList: []
-  animatorT: {fileID: 4973439617459958}
+  animatorT: {fileID: 0}
   clipIdle: {fileID: 0}
   clipHit: {fileID: 0}
   clipDestroyed: {fileID: 0}
@@ -405,77 +483,66 @@ MonoBehaviour:
   clipDestination: {fileID: 0}
   clipConstruct: {fileID: 0}
   clipDeconstruct: {fileID: 0}
-  creepType: 0
+  towerType: 5
   isTurret: 0
   isAOE: 0
   isSupport: 0
-  isSpawner: 0
-  waveIdx: 0
-  path: {fileID: 0}
-  wpIdx: 0
-  subWpIdx: 0
-  flying: 1
-  faceTravelingDir: 1
-  snapToDir: 1
-  rotateSpeed: 5
-  pathOffsetMode: 2
-  stopToAttack: 1
-  attackLimitPerStop: 3
-  stopToAttackCooldown: 3
-  lifeGainedOnDestroyedChance: 0
-  lifeGainedOnDestroyed: 0
-  expGainOnDestroyed: 0
-  rscGainOnDestroyed: 0100000000000000
-  lifeLostOnDestination: 1
-  effectSpawn:
+  isResource: 0
+  isMine: 0
+  targetGroup: 0
+  activeBetweenWave: 0
+  isPreview: 0
+  prebuilt: 0
+  disableSelling: 0
+  lifeCostOnDestroyed: 0
+  hideInInspector: 0
+  constructState: 0
+  limitInScene: 0
+  destroyOnTrigger: 1
+  effectBuilding:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  effectBuilt:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  effectSold:
     obj: {fileID: 0}
     autoDestroy: 1
     duration: 1.5
   effectDestroyed:
-    obj: {fileID: 1720826579206936, guid: 4a5bca9c97861774692ab06a66a75ec2, type: 3}
-    autoDestroy: 1
-    duration: 2
-  effectDestination:
     obj: {fileID: 0}
     autoDestroy: 1
     duration: 1.5
-  soundSpawn: {fileID: 0}
+  soundBuilding: {fileID: 0}
+  soundBuilt: {fileID: 0}
+  soundUpgrading: {fileID: 0}
+  soundUpgraded: {fileID: 0}
+  soundSold: {fileID: 0}
   soundDestroyed: {fileID: 0}
-  soundDestination: {fileID: 0}
+  radius: 0.5
   supportTgtList: []
   supportSrcList: []
-  reverse: 0
-  spawnerPrefab: {fileID: 0}
-  spawnerCount: 1
-  cooldown_Spawner: 5
-  spawnerOverride:
-    mulHP: 0.5
-    mulSH: 0.5
-    mulSpd: 0.5
-    mulExp: 0.5
-    mulRsc: 0.5
-  spawnOnDestroyed: {fileID: 0}
-  sodCount: 1
-  sodOverride:
-    mulHP: 0.5
-    mulSH: 0.5
-    mulSpd: 0.5
-    mulExp: 0.5
-    mulRsc: 0.5
---- !u!135 &135869724636180636
+  buildPlatform: {fileID: 0}
+  nodeID: 0
+  unlockUpgradeViaPerk: 0
+  upgradeTowerList:
+  - {fileID: 114424032017952368, guid: bfb02c1cfad601042bd343620d28e1ef, type: 3}
+--- !u!135 &135057695828876866
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584281622648256}
+  m_GameObject: {fileID: 1239107217020288}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.3
-  m_Center: {x: 0, y: 0.3, z: 0}
---- !u!1 &1797465367616366
+  m_Radius: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!1 &1576804844769940
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -483,82 +550,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4733740384994746}
-  - component: {fileID: 33862991150189530}
-  - component: {fileID: 23371039949532234}
+  - component: {fileID: 4714657385383682}
   m_Layer: 0
-  m_Name: TankTurret6_Sub
+  m_Name: StaticMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4733740384994746
+--- !u!4 &4714657385383682
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797465367616366}
-  m_LocalRotation: {x: 0.25881854, y: -3.970467e-23, z: 3.169614e-17, w: 0.965926}
-  m_LocalPosition: {x: -0, y: -0.05000019, z: 1.0875}
+  m_GameObject: {fileID: 1576804844769940}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4973439617459958}
+  m_Children:
+  - {fileID: 4223233279912012}
+  m_Father: {fileID: 4537856016892564}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 30.000002, y: 0, z: 0}
---- !u!33 &33862991150189530
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797465367616366}
-  m_Mesh: {fileID: 4300118, guid: afb06ef5a371cb14fa1a534801a2fd8a, type: 3}
---- !u!23 &23371039949532234
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797465367616366}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 6adef02b13a80be45903897aad51ba94, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1843807936173446
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1785106558322866
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -566,7 +581,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4951069486989940}
+  - component: {fileID: 4397342225876484}
   m_Layer: 0
   m_Name: TargetPoint
   m_TagString: Untagged
@@ -574,18 +589,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4951069486989940
+--- !u!4 &4397342225876484
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843807936173446}
+  m_GameObject: {fileID: 1785106558322866}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3, z: 0.07}
-  m_LocalScale: {x: 6.666666, y: 6.666666, z: 6.666666}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
+  m_LocalScale: {x: 2.2222223, y: 2.8571427, z: 2.2222223}
   m_Children: []
-  m_Father: {fileID: 4465971767202024}
+  m_Father: {fileID: 4537856016892564}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

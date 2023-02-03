@@ -94,8 +94,7 @@ MonoBehaviour:
       obj: {fileID: 0}
       autoDestroy: 1
       duration: 1.5
-    activeVisualEffect: {fileID: 4441788593414716, guid: 5ff509818bdf57f41b72b8aefcf6151e,
-      type: 3}
+    activeVisualEffect: {fileID: 4441788593414716, guid: 5ff509818bdf57f41b72b8aefcf6151e, type: 3}
   - prefabID: 5
     instanceID: -1
     icon: {fileID: 21300030, guid: d138993b3dd86764ba142a07cff82937, type: 3}
@@ -177,8 +176,7 @@ MonoBehaviour:
       obj: {fileID: 0}
       autoDestroy: 1
       duration: 1.5
-    activeVisualEffect: {fileID: 4441788593414716, guid: 5ff509818bdf57f41b72b8aefcf6151e,
-      type: 3}
+    activeVisualEffect: {fileID: 4441788593414716, guid: 5ff509818bdf57f41b72b8aefcf6151e, type: 3}
   - prefabID: 1
     instanceID: -1
     icon: {fileID: 21300052, guid: d138993b3dd86764ba142a07cff82937, type: 3}
@@ -424,8 +422,7 @@ MonoBehaviour:
       obj: {fileID: 0}
       autoDestroy: 1
       duration: 1.5
-    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27,
-      type: 3}
+    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27, type: 3}
   - prefabID: 3
     instanceID: -1
     icon: {fileID: 21300046, guid: d138993b3dd86764ba142a07cff82937, type: 3}
@@ -507,8 +504,7 @@ MonoBehaviour:
       obj: {fileID: 0}
       autoDestroy: 1
       duration: 1.5
-    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27,
-      type: 3}
+    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27, type: 3}
   - prefabID: 6
     instanceID: -1
     icon: {fileID: 21300010, guid: d138993b3dd86764ba142a07cff82937, type: 3}
@@ -590,8 +586,7 @@ MonoBehaviour:
       obj: {fileID: 0}
       autoDestroy: 1
       duration: 1.5
-    activeVisualEffect: {fileID: 4441788593414716, guid: 262e841c96607cc40950b6af5b4310cd,
-      type: 3}
+    activeVisualEffect: {fileID: 4441788593414716, guid: 262e841c96607cc40950b6af5b4310cd, type: 3}
   - prefabID: 7
     instanceID: -1
     icon: {fileID: 21300044, guid: d138993b3dd86764ba142a07cff82937, type: 3}
@@ -673,8 +668,7 @@ MonoBehaviour:
       obj: {fileID: 0}
       autoDestroy: 1
       duration: 1.5
-    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27,
-      type: 3}
+    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27, type: 3}
   - prefabID: 8
     instanceID: -1
     icon: {fileID: 21300010, guid: d138993b3dd86764ba142a07cff82937, type: 3}
@@ -756,6 +750,5 @@ MonoBehaviour:
       obj: {fileID: 0}
       autoDestroy: 1
       duration: 1.5
-    activeVisualEffect: {fileID: 4441788593414716, guid: 262e841c96607cc40950b6af5b4310cd,
-      type: 3}
+    activeVisualEffect: {fileID: 4441788593414716, guid: 262e841c96607cc40950b6af5b4310cd, type: 3}
   copiedFromOldDB: 0

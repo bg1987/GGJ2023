@@ -345,8 +345,7 @@ MonoBehaviour:
       rscGain:
       - 0
       - 0
-    tgtSelectIndicator: {fileID: 4747208978708652, guid: e0633c181f37f874ebbf3f430c6e01bf,
-      type: 3}
+    tgtSelectIndicator: {fileID: 4747208978708652, guid: e0633c181f37f874ebbf3f430c6e01bf, type: 3}
     effectOnActivate:
       obj: {fileID: 0}
       autoDestroy: 1

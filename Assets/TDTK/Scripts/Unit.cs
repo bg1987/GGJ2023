@@ -1180,11 +1180,11 @@ namespace TDTK{
 		#endregion
 		
 		
-		public bool IsStunned(){ return GetEffStun(); }
+		public bool IsStunned(){ return GetEffStun() || isActive; }
 		
 		public bool IsDestroyed(){ return hp<=0 || !thisObj.activeInHierarchy; }
 		
-		
+		public bool isActive { get; set; }
 		#region animation
 		[Header("Animation")]
 		public Transform animatorT;
