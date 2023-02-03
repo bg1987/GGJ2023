@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using TDTK;
+using UnityEngine.Serialization;
 
 namespace TDTK {
 
@@ -81,7 +82,7 @@ namespace TDTK {
 		
 		public bool dead=false;
 		public bool stunned=false;
-		public bool enabled = false;
+		public bool isActive;
 		private float stunDuration=0;
 		
 		public float slowMultiplier=1;
@@ -123,8 +124,7 @@ namespace TDTK {
 		public void Init(){
 			dead=false;
 			stunned=false;
-			enabled = false;
-			
+			isActive = true;
 			fullHP=GetFullHP();
 			HP=fullHP;
 			fullShield=GetFullShield();
@@ -176,7 +176,7 @@ namespace TDTK {
 			currentShieldStagger-=Time.fixedDeltaTime;
 			
 			
-			if(enabled && target!=null && !IsInConstruction() && !stunned){
+			if(isActive && target!=null && !IsInConstruction() && !stunned){
 				if(turretObject!=null){
 					if(rotateTurretAimInXAxis && barrelObject!=null){
 						Vector3 targetPos=target.GetTargetT().position;
@@ -286,7 +286,7 @@ namespace TDTK {
 		}
 		
 		void ScanForTarget(){
-			if(enabled && !dead && !IsInConstruction() && !stunned){
+			if(isActive && !dead && !IsInConstruction() && !stunned){
 				
 				if(target==null){
 					Collider[] cols=Physics.OverlapSphere(thisT.position, GetRange(), maskTarget);
@@ -373,7 +373,7 @@ namespace TDTK {
 			yield return null;
 			
 			while(true){
-				while(!enabled || target==null || stunned || IsInConstruction() || !targetInLOS) yield return null;
+				while(!isActive || target==null || stunned || IsInConstruction() || !targetInLOS) yield return null;
 				
 				Unit currentTarget=target;
 				

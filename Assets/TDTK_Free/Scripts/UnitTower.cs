@@ -194,7 +194,7 @@ namespace TDTK {
 		
 		public override void Update() {
 			base.Update();
-			offIndicator.SetActive(!enabled);
+			offIndicator.SetActive(!isActive);
 		}
 		
 		public override void FixedUpdate(){
@@ -220,7 +220,7 @@ namespace TDTK {
 			while(true){
 				yield return new WaitForSeconds(GetCooldown());
 				
-				while(!enabled || stunned || IsInConstruction()) yield return null;
+				while(!isActive || stunned || IsInConstruction()) yield return null;
 				
 				Transform soPrefab=GetShootObjectT();
 				if(soPrefab!=null) Instantiate(soPrefab, thisT.position, thisT.rotation);
