@@ -1182,7 +1182,7 @@ namespace TDTK{
 		#endregion
 		
 		
-		public bool IsStunned(){ return GetEffStun() || isActive; }
+		public bool IsStunned(){ return GetEffStun() || !isActive; }
 		
 		public bool IsDestroyed(){ return hp<=0 || !thisObj.activeInHierarchy; }
 		
