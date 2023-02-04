@@ -182,7 +182,9 @@ namespace TDTK{
 			InitAnimation();
 		}
 		
-		IEnumerator Start(){
+		IEnumerator Start()
+		{
+			isActive = true;
 			if(!IsTower()) yield break;
 			yield return null;
 			
@@ -1180,7 +1182,7 @@ namespace TDTK{
 		#endregion
 		
 		
-		public bool IsStunned(){ return GetEffStun() || isActive; }
+		public bool IsStunned(){ return GetEffStun() || !isActive; }
 		
 		public bool IsDestroyed(){ return hp<=0 || !thisObj.activeInHierarchy; }
 		

@@ -1,40 +1,89 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
+[RequireComponent(typeof(DirectionalLight))]
 public class SunMovement : MonoBehaviour
 {
-    public float moveTime = 10f;
-    public Transform[] waypoints;
+    private Transform sun;
+
+    public bool rotateY = true;
+    public float yAxisRotationTime = 10f;
+
+
+    public bool rotateX = true;
+    public float xAxisRotationTime = 10f;
+
+    public float maxXRotation = 10f;
+
+    public bool updateTimes = false;
+
+    private LTDescr xTween;
+ 
+    private LTDescr yTween;
     // Start is called before the first frame update
     void Start()
     {
-        var path = new LTBezierPath(ToVectors(waypoints));
-        LeanTween.move(gameObject, path, moveTime).setLoopType(LeanTweenType.pingPong);
-    }
-
-    void OnDrawGizmos()
-    {
-        if (waypoints != null && waypoints.Length > 0)
+        sun = transform;
+        sun.eulerAngles = new Vector3(maxXRotation, 0, 0);
+        if (rotateX)
         {
-            var path = new LTBezierPath(ToVectors(waypoints));
-            path.gizmoDraw();
+            RotateX();
+        }
+
+        if (rotateY)
+        {
+            RotateY();
         }
     }
 
-    private Vector3[] ToVectors(Transform[] transforms)
+    private void RotateY()
     {
-        var res = new Vector3[transforms.Length];
-        for (int i = 0; i < transforms.Length; i++)
-        {
-            res[i] = transforms[i].position;
-        }
-        return res;
+        yTween = LeanTween.rotateY(gameObject, 720, yAxisRotationTime).setRepeat(-1);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void RotateX()
     {
+        xTween = LeanTween.rotateX(gameObject, 180f - maxXRotation, xAxisRotationTime).setRepeat(-1);
+    }
+
+    private void Update()
+    {
+        if (updateTimes)
+        {
+            if (rotateX)
+            {
+                if (xTween == null)
+                {
+                    RotateX();
+                }
+
+                xTween.resume();
+                xTween.setTime(xAxisRotationTime);
+            }
+            else
+            {
+                xTween.pause();
+            }
+
+            if (rotateY)
+            {
+                if (yTween == null)
+                {
+                    RotateY();
+                }
+
+                yTween.resume();
+                yTween.setTime(yAxisRotationTime);
+            }
+            else
+            {
+                yTween.pause();
+            }
+            
+            
+        }
     }
 }

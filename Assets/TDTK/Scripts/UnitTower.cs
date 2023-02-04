@@ -25,8 +25,7 @@ namespace TDTK{
 		public bool isMine;
 		public override bool IsTurret(){ return isTurret; }
 		public override bool IsAOE(){ return isAOE; }
-		public override bool IsSupport(){ return isSupport; }
-		public override bool IsResource(){ return isResource; }
+		public override bool IsSupport(){ return isSupport; } public override bool IsResource(){ return isResource; }
 		public override bool IsMine(){ return isMine; }
 		public bool IsBlock(){ return !isTurret & !isAOE & !isSupport & !isResource & !isMine; }
 		

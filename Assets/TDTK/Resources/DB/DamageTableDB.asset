@@ -13,23 +13,9 @@ MonoBehaviour:
   m_Name: DamageTableDB
   m_EditorClassIdentifier: 
   armorTypeList:
-  - name: Reactive
+  - name: Normal
     modifiers:
     - 1
-    - 1.2
-    - 0.8
-  - name: Reflective
-    modifiers:
-    - 1.2
-    - 1
-    - 0.8
-  - name: Hybrid
-    modifiers:
-    - 0.8
-    - 0.8
-    - 1.2
   damageTypeList:
-  - name: Kinectic
-  - name: Energy
-  - name: Hybrid
+  - name: Normal
   copiedFromOldDB: 0
