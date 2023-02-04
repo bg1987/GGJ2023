@@ -530,7 +530,7 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   shootEffectDuration: 0
-  turretPivot: {fileID: 0}
+  turretPivot: {fileID: 4542368293828210}
   barrelPivot: {fileID: 4071988389324258}
   aimInXAxis: 1
   snapAiming: 1
