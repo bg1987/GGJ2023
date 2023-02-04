@@ -31745,8 +31745,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4eeb7cea112e24a9e07cf4e0bd083c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yAxisRotationTime: 10
-  xAxisRotationTime: 60
+  rotateY: 1
+  yAxisRotationTime: 30
+  rotateX: 0
+  xAxisRotationTime: 10
   maxXRotation: 45
   updateTimes: 0
 --- !u!1 &745587893
